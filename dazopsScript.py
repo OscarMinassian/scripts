@@ -12,8 +12,6 @@ forecast_days = 3
 temperature_2m = "°C"
 
 response = requests.get(f"https://api.open-meteo.com/v1/forecast?latitude={latitude}&longitude={longitude}&timezone={timezone}&forecast_days={forecast_days}&current=temperature_2m,wind_speed_10m&hourly=temperature_2m,relative_humidity_2m,wind_speed_10m")
-# print(response.status_code)
-# print(response.json())
 
 # create a formatted string of the Python JSON object
 def jprint(obj):
