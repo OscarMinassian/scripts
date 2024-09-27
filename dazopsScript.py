@@ -1,3 +1,4 @@
+# "Your Python challenge for next week: write a script that will return the weather for Bronte NSW"
 # Pull data from the API and return the current temp for Bronty
 import requests
 import json
